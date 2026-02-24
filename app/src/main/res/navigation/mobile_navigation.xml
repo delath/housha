@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_all">
 
     <fragment
         android:id="@+id/nav_all"
-        android:name="eu.delath.animenotifier.ui.all.AllFragment"
+        android:name="dev.delath.housha.ui.all.AllFragment"
         android:label="@string/menu_all"
         tools:layout="@layout/fragment_all" />
 
     <fragment
         android:id="@+id/nav_subscribed"
-        android:name="eu.delath.animenotifier.ui.subscribed.SubscribedFragment"
+        android:name="dev.delath.housha.ui.subscribed.SubscribedFragment"
         android:label="@string/menu_subscribed"
         tools:layout="@layout/fragment_subscribed" />
 
     <fragment
         android:id="@+id/nav_statistics"
-        android:name="eu.delath.animenotifier.ui.statistics.StatisticsFragment"
+        android:name="dev.delath.housha.ui.statistics.StatisticsFragment"
         android:label="@string/menu_statistics"
         tools:layout="@layout/fragment_statistics" />
 </navigation>

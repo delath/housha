@@ -9,5 +9,9 @@
 
     <string name="menu_all">All</string>
     <string name="menu_subscribed">Subscribed</string>
-    <string name="menu_statistics">Statistics</string>
+    <string name="menu_statistics">Stats</string>
+    <string name="subscribed_empty">No subscriptions yet.\nGo to All and tap + to subscribe.</string>
+    <string name="stats_subscribed_label">Subscribed anime</string>
+    <string name="search_hint">Search anime…</string>
+    <string name="subscribe">Subscribe</string>
 </resources>

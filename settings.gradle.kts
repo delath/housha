@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Anime Notifier"
+rootProject.name = "Housha"
 include(":app")
